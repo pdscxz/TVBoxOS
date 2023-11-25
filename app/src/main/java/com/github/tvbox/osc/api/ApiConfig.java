@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://vip.qqqwww.xyz");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://tt.iitvba.com");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
