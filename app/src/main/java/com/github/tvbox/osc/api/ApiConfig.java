@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://t.tvbox.life");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://mirror.ghproxy.com/https://raw.githubusercontent.com/pdscxz/TV/main/itvba/tv.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
